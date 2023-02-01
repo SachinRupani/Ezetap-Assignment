@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EzetapAssignmentAppModule</string>
+
+    <!--Icon content description-->
+    <string name="icon_error">Error</string>
+    <string name="icon_navigate_back">Navigate back</string>
+
+    <!--Error Messages-->
+    <string name="msg_unknown_host_error">Oops! Seems like you\'re internet connection is not working</string>
+    <string name="msg_server_error">Oops! Some internal server error occurred</string>
+    <string name="msg_unauthorized_error">Oops! You\'re unauthorized to see this page</string>
+    <string name="msg_bad_request_error">Oops! Bad Request occurred</string>
+    <string name="msg_forbidden_error">Oops! Forbidden - Something went wrong</string>
+    <string name="msg_not_found_error">Oops! Page not found</string>
+    <string name="msg_other_http_error">Oops! Something unexpected happened</string>
+    <string name="msg_unknown_error">Oops! Some unknown error occurred</string>
+    <string name="msg_no_content_found_error">Oops! It\'s empty here</string>
+
+    <!--review screen title-->
+    <string name="review_screen_title">Review</string>
+
+
+
+</resources>
