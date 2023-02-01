@@ -76,13 +76,8 @@ dependencies {
     //Coil Image
     implementation "io.coil-kt:coil-compose:$coil_version"
 
-    // Network Module Lib
+    // Network Module
     implementation project(":EzetapAssignmentNetworkModule")
-
-    //Ktor (Issue: https://github.com/ktorio/ktor/issues/1039#issuecomment-517660157)
-    implementation "io.ktor:ktor-client-android:$ktor_version"
-    implementation "io.ktor:ktor-utils-jvm:$ktor_version"
-    implementation "io.ktor:ktor-utils-jvm:$ktor_version"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
