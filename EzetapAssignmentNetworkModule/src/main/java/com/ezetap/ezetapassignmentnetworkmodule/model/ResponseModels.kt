@@ -30,6 +30,12 @@ data class UiDataModel(
                 else -> UiType.Unrecognized
             }
         }
+
+    /**
+     * Property getter to check if the text field is a phone field
+     */
+    val isPhoneField: Boolean
+        get() = key == "text_phone" && getUiTypeEnum == UiType.TextField
 }
 
 @Serializable

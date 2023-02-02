@@ -47,7 +47,8 @@ fun InputTextFieldView(
     hint: String,
     valueText: String,
     onInputTextChange: (String) -> Unit,
-    keyboardType: KeyboardType = KeyboardType.Text
+    keyboardType: KeyboardType = KeyboardType.Text,
+    imeAction: ImeAction = ImeAction.Next
 ) {
     var textInputString by remember {
         mutableStateOf(value = valueText)
@@ -64,7 +65,7 @@ fun InputTextFieldView(
         placeholder = {
             Text(text = hint, color = MaterialTheme.colorScheme.outline)
         },
-        keyboardOptions = KeyboardOptions(keyboardType = keyboardType, imeAction = ImeAction.Next)
+        keyboardOptions = KeyboardOptions(keyboardType = keyboardType, imeAction = imeAction)
     )
 }
 
