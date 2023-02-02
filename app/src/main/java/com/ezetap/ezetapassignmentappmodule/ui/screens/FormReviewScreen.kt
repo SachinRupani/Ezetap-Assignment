@@ -30,9 +30,7 @@ fun FormReviewScreen(
     onNavigateBack: () -> Unit
 ) {
 
-    val uiStateCustomUi by remember {
-        formViewModel.uiState
-    }.collectAsStateWithLifecycle()
+    val uiStateCustomUi by formViewModel.uiState.collectAsStateWithLifecycle()
 
     // UI Data List
     val listUiData = remember {
